@@ -4,7 +4,7 @@
   "description": "basic webscraper build in node.js cheerio package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/thijsBoet/cheerio-webscraping/issues"
   },
-  "homepage": "https://github.com/thijsBoet/cheerio-webscraping#readme"
+  "homepage": "https://github.com/thijsBoet/cheerio-webscraping#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2"
+  }
 }
